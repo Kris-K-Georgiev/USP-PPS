@@ -1,0 +1,22 @@
+Mitak tova ti e bazata danni 
+eto ti malko klipcheta i info kak da q napravish
+https://youtu.be/JrAiefGNUq8?si=uxAvkYI6LHLq2Ivk
+
+За да създадеш и управляваш база данни SQLite в Visual Studio Code, можеш да използваш различни разширения като "SQLite", "SQLite Explorer" или "SQLite Viewer". Ето пример как да използваш "SQLite" разширението:
+
+Инсталирай разширението "SQLite" от магазина на разширенията на Visual Studio Code.
+Създай нов файл с разширение ".sqlite" или ".db" във Visual Studio Code и запиши го с името, което искаш за базата данни (например "mydatabase.sqlite").
+Отвори командния панел на Visual Studio Code (натисни Ctrl + Shift + P или Cmd + Shift + P на Mac) и напиши "SQLite: Open Database".
+Избери вече създадената от теб база данни ("mydatabase.sqlite").
+Сега можеш да създаваш таблиците в базата данни чрез SQL заявки директно във Visual Studio Code. Например:
+
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY,
+    username TEXT NOT NULL,
+    email TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL
+);
+
+Това създава таблица "users" с колони за "id", "username", "email" и "password".
+
+За да изпълниш SQL заявки върху базата данни, отвори SQL файл във Visual Studio Code и избери базата данни, след което изпълни заявката си.
