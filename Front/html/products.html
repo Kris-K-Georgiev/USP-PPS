@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Car Store</title>
+        <script src="https://kit.fontawesome.com/0298b9039d.js" crossorigin="anonymous"></script> 
+        <link rel="stylesheet" href="/Front/css/sell.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section id="header">
+            <a href="/Front/html/index.html"><h2>CAR STORE</h2></a>
+            <div>
+                <ul id="navbar-m">
+                    <li><a href=""><i class="fa-solid fa-heart fa-xl" style="color: #434343;"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-comments fa-xl" style="color: #434343;"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-user fa-xl" style="color: #434343;"></i></a></li>
+                    <li><a href="s"><button>Продай</button></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="f">
+            <h2>Продай кола</h2>
+            <form id="sellCarForm">
+              <div>
+                <label for="transport">Превозно средство:</label>
+                <select id="transport" name="transport">
+                  <option value="car">Автомобил</option>
+                  <option value="truck">Камион</option>
+                  <option value="motorcycle">Мотор</option>
+                </select>
+              </div>
+              <div>
+                <label for="condition">Състояние:</label>
+                <select id="condition" name="condition">
+                  <option value="new">Ново</option>
+                  <option value="used">Употребявано</option>
+                </select>
+              </div>
+              <div>
+                <label for="brand">Марка:</label>
+                <input type="text" id="brand" name="brand" placeholder="Марка">
+              </div>
+              <div>
+                <label for="model">Модел:</label>
+                <input type="text" id="model" name="model" placeholder="Модел">
+              </div>
+              <div>
+                <label for="price">Цена (по договаряне):</label>
+                <input type="number" id="price" name="price" placeholder="Цена">
+              </div>
+              <div>
+                <label for="color">Цвят:</label>
+                <input type="text" id="color" name="color" placeholder="Цвят">
+              </div>
+              <div>
+                <label for="year">Година:</label>
+                <input type="number" id="year" name="year" placeholder="Година">
+              </div>
+              <div>
+                <label for="mileage">Пробег:</label>
+                <input type="number" id="mileage" name="mileage" placeholder="Пробег">
+              </div>
+              <div class="file-upload-container">
+                <label for="images" class="file-upload-btn">Избери снимки</label>
+                <input type="file" id="images" name="images" accept="image/*" multiple>
+                <span class="file-upload-label">Файлове не са избрани</span>
+              </div>
+              <div class="file-preview-container" id="preview-container">
+                <!-- Images will be shown here -->
+              </div>
+                           
+              <div class="fb">
+                <button type="submit">Продай</button>
+              </div>
+            </form>
+          </section>
+          
+          
+        
+
+    
+        <section id="footer">
+            <div class="heading">
+              <h2>Carstore  <sup>™</sup></h2>
+            </div>
+            <div class="content">
+              <div class="services">
+                <h4>Контроли</h4>
+                <p><a href="index.html">Начална страница</a></p>
+                <p><a href="profile.html">Профил</a></p>
+                <p><a href="sell.html">Продай</a></p>
+              </div>
+              <div class="social-media">
+                <h4>Социални мрежи</h4>
+                <p>
+                  <a href="#"
+                    ><i class="fab fa-linkedin"></i> Linkedin</a
+                  >
+                </p>
+                <p>
+                  <a href="#"
+                    ><i class="fab fa-twitter"></i> Twitter</a
+                  >
+                </p>
+                <p>
+                  <a href="https://github.com/farazc60"
+                    ><i class="fab fa-github"></i> Github</a
+                  >
+                </p>
+                <p>
+                  <a href="https://www.facebook.com/codewithfaraz"
+                    ><i class="fab fa-facebook"></i> Facebook</a
+                  >
+                </p>
+                <p>
+                  <a href="https://www.instagram.com/codewithfaraz"
+                    ><i class="fab fa-instagram"></i> Instagram</a
+                  >
+                </p>
+              </div>
+              <div class="links">
+                <h4>Търси</h4>
+                <p><a href="#">Леки коли</a></p>
+                <p><a href="#">Тежкотоварни</a></p>
+                <p><a href="#">Извънгабаритни</a></p>
+                <p><a href="#">Двуколесни</a></p>
+                <p><a href="#">Други</a></p>
+              </div>
+              <div class="details">
+                <h4 class="address">Адрес</h4>
+                <p>
+                 Планета Земя, България, гр. Варна <br />
+                  ул. "Студентска 18" ет.1 
+                </p>
+                <h4 class="mobile">Телефон</h4>
+                <p><a href="#">+359 834 736 623</a></p>
+                <h4 class="mail">Имейл</h4>
+                <p><a href="#">carstore2024@gmail.com</a></p>
+              </div>
+            </div>
+            <footer>
+              <hr />
+              © 2024 CAR STORE.
+            </footer> 
+        </section>
+
+        
+        <script src="/Back/like.js"></script>
+        <script src="/Back/layout.js"></script>
+        </body>
+      </html>

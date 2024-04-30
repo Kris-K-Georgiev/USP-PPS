@@ -1,22 +1,252 @@
 <!DOCTYPE html>
-<html lang="bg">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>Car shop</title>
-    <link rel="stylesheet" type="text/css" href="/Front/css/styles.css">
-</head>
-<body>
-    <div class="navbar">
-        <div class="navbar-icons">
-            <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADTElEQVR4nO2ZS2xNURSGv2olaCkDIU0x8ChC0DLwSIzExCNCg4kYCErFSBkQBEmnpJ5BVJuYeM2olmEjRBAJYuCtiXhTVaKtrOQ/yU573J57e3q7m9wvOcm9Z+299lpnr73P2utAhgwZMmTwnCJgJ9AAPAGagVagCagHdgOTk9A3Bdijvk3S1Szddq8CmBSnA7OBm0BHhKsduA7MTKBvltq0R9TZAJT0xIGBQJUz4CfgNLBMs5MLDALGAEuB48Bntf0L7AeyHX32+6Bkgb5jwBLpMF250r0cOKM2wQM6AuQk68QI4JaU/AQOAMMi9BsK7FOYWN/zcsCuWt0z2V617Y5hcr7FmZ3hycxE4MRrhUKyWGi9ko5ax4mXwIwU9JUAbxxnIs1MleNEAakzTjqCWDfHxvZAX4HjzOEoC7td4ZTKTIQ9yVZdxTHoK1aYtXWnL9idbE3ERYWuuDgkG22LDqXI2U2iLOyoBIs9LvKd3XFiWINdEtoW6ztnZeuOMGG9hLaH+84K2XojTPhMwgn4T5FsfRom/CFhHv6TJ1vN5i4Eb09LFXxniJN1dOGdhD15CaaLQtlqL8guPJSwR5lmmpgjWx+ECWsk3Iz/bJWt58KE5RJW4z81snXL/05sJvzi+YIfDHyTrbYNh3JPDUrxlzWy8U6iRtvUyBzKwj+ygPuysay7aWtSw5X4xyrZ9jZK+Jc7e7Rlmr6QLwf+u8g7Y8fIu+pgWaYvVMum28kcC6Y7BYRN9D1lsuUXMDXZzhvU+TewiL5jsWwwW9anqiQoRFgFcB7pZ4ESw0gFh0RYLF5wnEnnzCwEvmvsi3Ecl63OddWJ0bX0Pms1lo15STbEQrZKmEGN6mQq5cuI41Q6Zdqa3hgnS+XQNg1yTaXVuDBdddLdprJqr2YXVrD+qgGfA3Nj0DkfeOEkrVbYTgtWoHjkVN4rU4zjHH1z+SNdT5SFp70AcMpZN43A+CQfRqPz2eCEPiv06QsrOO+36AkPSNDe4n6jU7V5r28uXjASuOzMTp0KBJ0pVFGtw9lara93lAIfZKRtCKsdmVUwPzoL2mbFa0YDV5ynbmnOUee/zdwo+hHrlNYEDtibejv9lGnAY132u1+T79lJMwPp4B+umggDgRN8wAAAAABJRU5ErkJggg=="></div>
-            <div class="icon"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/chat.png" alt="chat"/></div>
-            <div class="icon"><img width="48" height="48" src="https://img.icons8.com/material-sharp/48/bell.png" alt="bell"/></div>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Car Store</title>
+        <script src="https://kit.fontawesome.com/0298b9039d.js" crossorigin="anonymous"></script> 
+        <link rel="stylesheet" href="/Front/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section id="header">
+            <a href="/Front/html/index.html"><h2>CAR STORE</h2></a>
+            <div>
+                <ul id="navbar-m">
+                    <li><a href=""><i class="fa-solid fa-heart fa-xl" style="color: #434343;"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-comments fa-xl" style="color: #434343;"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-user fa-xl" style="color: #434343;"></i></a></li>
+                    <li><a href="s"><button>Продай</button></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="navbar">
+            
+            <div>
+                <ul id="navbar">
+                    <li><a href="/Front/html/products.html">Леки коли</a></li>
+                    <li><a href="">Тежкотоварни</a></li>
+                    <li><a href="">Извънгабаритни</a></li>
+                    <li><a href="">Двуколесни</a></li>
+                    <li><a href="">Други</a></li>
+                    </div>
+                    <div class="input-group">
+                        <div class="searchbox">
+                            <table class="elem">
+                                <tr>
+                                    <td>
+                                        <input type="text" placeholder="Search" class="search">
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #465b52;"></i></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        
+
+    
+    <section id="f">       
+    <form id="filterForm">
+        <div>
+            <label for="filter1">Филтър 1:</label>
+            <select id="filter1" name="filter1">
+                <option value="option1">Опция 1</option>
+                <option value="option2">Опция 2</option>
+                <option value="option3">Опция 3</option>
+            </select>
         </div>
-        <div class="profile-picture">
-            <img src="profile.jpg" alt="Profile Picture">
+
+        <!-- Втора колона -->
+        <div>
+            <label for="filter2">Филтър 2:</label>
+            <select id="filter2" name="filter2">
+                <option value="optionA">Опция A</option>
+                <option value="optionB">Опция B</option>
+                <option value="optionC">Опция C</option>
+            </select>
         </div>
-        <button class="nav-button">Button</button>
-    </div>
-</body>
-</html>
+
+        <!-- Първа колона -->
+        <div>
+            <label for="filter3">Филтър 3:</label>
+            <select id="filter3" name="filter3">
+                <option value="optionX">Опция X</option>
+                <option value="optionY">Опция Y</option>
+                <option value="optionZ">Опция Z</option>
+            </select>
+        </div>
+
+        <!-- Втора колона -->
+        <div>
+            <label for="filter4">Филтър 4:</label>
+            <select id="filter4" name="filter4">
+                <option value="optionM">Опция M</option>
+                <option value="optionN">Опция N</option>
+                <option value="optionO">Опция O</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="filter3">Филтър 3:</label>
+            <select id="filter3" name="filter3">
+                <option value="optionX">Опция X</option>
+                <option value="optionY">Опция Y</option>
+                <option value="optionZ">Опция Z</option>
+            </select>
+        </div>
+
+        <!-- Втора колона -->
+        <div>
+            <label for="filter4">Филтър 4:</label>
+            <select id="filter4" name="filter4">
+                <option value="optionM">Опция M</option>
+                <option value="optionN">Опция N</option>
+                <option value="optionO">Опция O</option>
+            </select>
+        </div>
+        <div>
+            <label for="filter3">Филтър 3:</label>
+            <select id="filter3" name="filter3">
+                <option value="optionX">Опция X</option>
+                <option value="optionY">Опция Y</option>
+                <option value="optionZ">Опция Z</option>
+            </select>
+        </div>
+
+        <!-- Втора колона -->
+        <div>
+            <label for="filter4">Филтър 4:</label>
+            <select id="filter4" name="filter4">
+                <option value="optionM">Опция M</option>
+                <option value="optionN">Опция N</option>
+                <option value="optionO">Опция O</option>
+            </select>
+        </div>
+        <!-- Бутон за филтрирано търсене -->
+        <div class="fb">
+            <button type="submit">Филтрирай</button>
+        </div> 
+        </form>
+        </section>
+
+        <section id="content">
+            <h2>Най-отваряни:</h2>
+            <div class="carousel-container">
+                <div class="shop-row">
+                    <div class="shop-container" data-url="https://example.com/page1">
+                        <img src="/Front/img/2.jpg" alt="Product Image">
+                        <h4>Product Title 1</h4>
+                        <p>Price: $20</p>
+                        <i class="fa fa-heart like-icon"></i>
+                    </div>
+                    <div class="shop-container" data-url="https://example.com/page1">
+                        <img src="/Front/img/1.jpg" alt="Product Image">
+                        <h4>Product Title 1</h4>
+                        <p>Price: $20</p>
+                        <i class="fa fa-heart like-icon"></i>
+                    </div>
+                    <div class="shop-container" data-url="https://example.com/page1">
+                        <img src="/Front/img/2.jpg" alt="Product Image">
+                        <h4>Product Title 1</h4>
+                        <p>Price: $20</p>
+                        <i class="fa fa-heart like-icon"></i>
+                    </div>
+                    <div class="shop-container" data-url="https://example.com/page1">
+                        <img src="/Front/img/1.jpg" alt="Product Image">
+                        <h4>Product Title 1</h4>
+                        <p>Price: $20</p>
+                        <i class="fa fa-heart like-icon"></i>
+                    </div>
+                    <div class="shop-container" data-url="https://example.com/page1">
+                        <img src="/Front/img/1.jpg" alt="Product Image">
+                        <h4>Product Title 1</h4>
+                        <p>Price: $20</p>
+                        <i class="fa fa-heart like-icon"></i>
+                    </div>
+                    <div class="shop-container" data-url="https://example.com/page1">
+                        <img src="/Front/img/1.jpg" alt="Product Image">
+                        <h4>Product Title 1</h4>
+                        <p>Price: $20</p>
+                        <i class="fa-solid fa-heart fa-xl"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="footer">
+            <div class="heading">
+              <h2>Carstore  <sup>™</sup></h2>
+            </div>
+            <div class="content">
+              <div class="services">
+                <h4>Контроли</h4>
+                <p><a href="index.html">Начална страница</a></p>
+                <p><a href="profile.html">Профил</a></p>
+                <p><a href="sell.html">Продай</a></p>
+              </div>
+              <div class="social-media">
+                <h4>Социални мрежи</h4>
+                <p>
+                  <a href="#"
+                    ><i class="fab fa-linkedin"></i> Linkedin</a
+                  >
+                </p>
+                <p>
+                  <a href="#"
+                    ><i class="fab fa-twitter"></i> Twitter</a
+                  >
+                </p>
+                <p>
+                  <a href="https://github.com/farazc60"
+                    ><i class="fab fa-github"></i> Github</a
+                  >
+                </p>
+                <p>
+                  <a href="https://www.facebook.com/codewithfaraz"
+                    ><i class="fab fa-facebook"></i> Facebook</a
+                  >
+                </p>
+                <p>
+                  <a href="https://www.instagram.com/codewithfaraz"
+                    ><i class="fab fa-instagram"></i> Instagram</a
+                  >
+                </p>
+              </div>
+              <div class="links">
+                <h4>Търси</h4>
+                <p><a href="#">Леки коли</a></p>
+                <p><a href="#">Тежкотоварни</a></p>
+                <p><a href="#">Извънгабаритни</a></p>
+                <p><a href="#">Двуколесни</a></p>
+                <p><a href="#">Други</a></p>
+              </div>
+              <div class="details">
+                <h4 class="address">Адрес</h4>
+                <p>
+                 Планета Земя, България, гр. Варна <br />
+                  ул. "Студентска 18" ет.1 
+                </p>
+                <h4 class="mobile">Телефон</h4>
+                <p><a href="#">+359 834 736 623</a></p>
+                <h4 class="mail">Имейл</h4>
+                <p><a href="#">carstore2024@gmail.com</a></p>
+              </div>
+            </div>
+            <footer>
+              <hr />
+              © 2024 CAR STORE.
+            </footer> 
+        </section>
+
+        
+        <script src="/Back/like.js"></script>
+        <script src="/Back/layout.js"></script>
+        </body>
+      </html>

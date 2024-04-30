@@ -39,7 +39,6 @@ body {
   width: 100%;
 }
 
-/*HEADER*/
 #header {
   display: flex;
   align-items: center;
@@ -100,88 +99,6 @@ body {
 }
 
 
-#navbar {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  text-align: center;
-}
-
-#navbar li {
-  list-style: none;
-  padding: 15px;
-}
-
-#navbar li a {
-  text-decoration: none;
-  color: #465b52;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-#navbar li a:hover {
-  color: #3742fa;
-}
-
-#navbar .searchbox {
-  margin: 20px auto;
-  position: relative;
-  width: 80%;
-  max-width: 300px;
-  height: 42px;
-  border: 4px solid #3742fa;
-  padding: 0 10px;
-  border-radius: 50px;
-}
-
-#navbar .elem {
-  width: 100%;
-  height: 100%;
-}
-
-#navbar .search {
-  border: none;
-  height: 100%;
-  width: calc(100% - 30px);
-  padding: 0px 5px;
-  border-radius: 50px;
-  font-size: 18px;
-  color: #465b52;
-  font-weight: 500;
-}
-
-@media screen and (max-width: 966px) {
-  #navbar {
-    flex-wrap: wrap; /* Allow items to wrap */
-  }
-
-  #navbar li {
-    flex: 1 1 auto; /* Allow items to grow to fill the space */
-  }
-
-  #navbar .searchbox {
-    width: 100%; /* Make the search box full width */
-    order: 2; /* Move the search box below */
-    margin-top: 20px; /* Add space between navbar and search box */
-  }
-}
-
-@media screen and (max-width: 700px) {
-  #navbar {
-    display: none;
-  }
-  
-}
-@media screen and (max-width: 700px) {
-  #navbar li:not(.searchbox) {
-    display: none; /* Hide all navbar items except the search box */
-  }
-}
-
-
-  
-/* Original styles */
-
 #f {
   margin-top: 20px;
   margin-bottom: 50px;
@@ -201,7 +118,7 @@ body {
   border-radius: 5px;
 }
 
-#f select{
+#f select, input {
   padding: 10px;
   border: 1px solid #E3E6F3;
   border-radius: 5px;
@@ -210,6 +127,51 @@ body {
   
 }
 
+#images {
+    display: none; /* Hide the original file input */
+  }
+  
+  .file-upload-container {
+    position: relative;
+  }
+  
+  .file-upload-btn {
+    background-color: #3742FA;
+    color: #E3E6F3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .file-upload-btn:hover {
+    background-color: #465b52;
+  }
+  
+  .file-upload-label {
+    font-size: 16px;
+    color: #465b52;
+    margin-left: 10px;
+  }
+  
+  #preview-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .file-preview-image {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Rest of your CSS styles */
+  
+  
+
+  
 #f button {
   background-color: #3742FA;
   color: #E3E6F3;
@@ -229,19 +191,20 @@ body {
   background-color: #465b52;
 }
 
-/* Adjustments for smaller screens */
-@media (max-width: 767px) {
-  #f {
-    padding: 20px; /* Adjusted padding for smaller screens */
-  }
-  #f h2{
-    text-align: center; /* Adjusted padding for smaller screens */
-  }
-  #f form {
-    grid-template-columns: repeat(2, 1fr); /* Adjusted grid for two columns on smaller screens */
-    grid-gap: 10px; /* Reduced gap between columns for smaller screens */
-  }
 
+
+@media (max-width: 950px) {
+    #f {
+      padding: 20px; /* Adjusted padding for smaller screens */
+    }
+    #f h2{
+      text-align: center; /* Adjusted padding for smaller screens */
+    }
+    #f form {
+      grid-template-columns: repeat(2, 1fr); /* Adjusted grid for two columns on smaller screens */
+      grid-gap: 10px; /* Reduced gap between columns for smaller screens */
+    }
+    
   #f label {
     text-align: right; /* Align labels to the right for smaller screens */
   }
@@ -251,84 +214,35 @@ body {
   }
 }
 
-
-
-
-/* Original styles */
-
-#content {
-  text-align: center;
-}
-
-.carousel-container {
-  width: calc(100% - 40px);
-  overflow: hidden;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.shop-row, .shop-row1, .shop-row2, .shop-row3, .shop-row4, .shop-row5 {
-  display: flex; 
-  transition: transform 10s ease;
-  width: 100%;
-  margin-bottom: 50px;
-}
-
-.shop-container {
-  padding: 20px;
-  box-sizing: border-box;
-  text-align: center; 
-  border-radius: 4px; 
-  background-color: #E3E6F3; 
-  margin: 5px; 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
-  text-decoration: none; 
-  cursor: pointer;
-}
-
-.shop-container img {
-  max-width: 100%;
-  border-radius: 4px; 
-  margin-bottom: 10px; 
-}
-
-.shop-container:hover {
-  transform: translateY(-5px); 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-}
-
-.like-icon {
-  font-size: 24px; 
-  color: #465b52; 
-  cursor: pointer; 
-  margin-top: 10px; 
-}
-
-.like-icon.liked {
-  color: #ff6f61; 
-}
-
-/* Media Queries for responsiveness */
-
-@media only screen and (max-width: 768px) {
-  .carousel-container {
-    width: calc(100% - 20px);
-    margin-left: 10px;
-    margin-right: 10px;
+@media screen and (max-width: 768px) {
+    #f form {
+      grid-template-columns: repeat(1, 1fr); /* Change to one column layout */
+    }
   }
   
-  .shop-row, .shop-row1, .shop-row2, .shop-row3, .shop-row4, .shop-row5 {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  /* Adjustments for smaller screens */
+  @media (max-width: 767px) {
+    #f {
+      padding: 20px; /* Adjusted padding for smaller screens */
+    }
+    #f h2 {
+      text-align: center; /* Adjusted padding for smaller screens */
+    }
+    #f form {
+      grid-template-columns: repeat(1, 1fr); /* Adjusted grid for one column on smaller screens */
+      grid-gap: 10px; /* Reduced gap between columns for smaller screens */
+    }
   
-  .shop-container {
-    flex-basis: calc(50% - 20px);
-    margin: 5px;
+    #f label {
+      text-align: left; /* Align labels to the left for smaller screens */
+    }
+  
+    #f .fb {
+      grid-column: 1; /* Adjusted grid column for smaller screens */
+    }
   }
-}
 
-/* Original styles */
+
 
 #footer {
   background-color: #E3E6F3;
@@ -401,5 +315,3 @@ footer hr {
     align-items: left;
   }
 }
-
-
