@@ -98,7 +98,7 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #ffffff;
+	color: #fff;
 }
 
 ul,
@@ -155,7 +155,7 @@ ol {
 .text-white span,
 .text-white li,
 .text-white a {
-	color: #fff;
+	color: black;
 }
 
 /* buttons */
@@ -164,7 +164,7 @@ ol {
 	display: inline-block;
 	font-size: 14px;
 	padding: 10px 28px 10px;
-	color: #ffffff;
+	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
 	background: #1e90ff;
@@ -173,7 +173,7 @@ ol {
 
 .site-btn {
 	font-size: 14px;
-	color: #ffffff;
+	color: #fff;
 	font-weight: 800;
 	text-transform: uppercase;
 	display: inline-block;
@@ -389,7 +389,7 @@ ol {
 
 .header__top__right__language ul li a {
 	font-size: 14px;
-	color: #ffffff;
+	color: #fff;
 	padding: 5px 10px;
 }
 
@@ -454,7 +454,7 @@ ol {
 
 .header__menu ul li .header__menu__dropdown li a {
 	text-transform: capitalize;
-	color: #ffffff;
+	color: #fff;
 	font-weight: 400;
 	padding: 5px 15px;
 }
@@ -526,7 +526,7 @@ ol {
 	width: 13px;
 	background: #1e90ff;
 	font-size: 10px;
-	color: #ffffff;
+	color: #fff;
 	line-height: 13px;
 	text-align: center;
 	font-weight: 700;
@@ -595,14 +595,14 @@ ol {
 
 .hero__categories__all i {
 	font-size: 16px;
-	color: #ffffff;
+	color: #fff;
 	margin-right: 10px;
 }
 
 .hero__categories__all span {
 	font-size: 18px;
 	font-weight: 700;
-	color: #ffffff;
+	color: #fff;
 }
 
 .hero__categories__all:after {
@@ -612,7 +612,7 @@ ol {
 	content: "3";
 	font-family: "ElegantIcons";
 	font-size: 18px;
-	color: #ffffff;
+	color: #fff;
 }
 
 .hero__categories ul {
@@ -893,7 +893,7 @@ ol {
 }
 
 .featured__item__pic__hover li:hover a i {
-	color: #ffffff;
+	color: #fff;
 	transform: rotate(360deg);
 }
 
@@ -1046,14 +1046,14 @@ ol {
 
 .breadcrumb__text h2 {
 	font-size: 46px;
-	color: #ffffff;
+	color: #fff;
 	font-weight: 700;
 }
 
 .breadcrumb__option a {
 	display: inline-block;
 	font-size: 16px;
-	color: #ffffff;
+	color: #fff;
 	font-weight: 700;
 	margin-right: 20px;
 	position: relative;
@@ -1072,7 +1072,7 @@ ol {
 .breadcrumb__option span {
 	display: inline-block;
 	font-size: 16px;
-	color: #ffffff;
+	color: #fff;
 }
 
 /*---------------------
@@ -1130,13 +1130,13 @@ ol {
 	top: 13px;
 	height: 1px;
 	width: 5px;
-	background: #dd2222;
+	background: #1e90ff;
 	content: "";
 }
 
 .price-range-wrap .range-slider .price-input input {
 	font-size: 16px;
-	color: #dd2222;
+	color: #1e90ff;
 	font-weight: 700;
 	max-width: 20%;
 	border: none;
@@ -1166,12 +1166,12 @@ ol {
 }
 
 .price-range-wrap .price-range .ui-slider-range {
-	background: #dd2222;
+	background: #1e90ff;
 	border-radius: 0;
 }
 
 .price-range-wrap .price-range .ui-slider-range.ui-corner-all.ui-widget-header:last-child {
-	background: #dd2222;
+	background: #1e90ff;
 }
 
 .sidebar__item__color {
@@ -1185,7 +1185,7 @@ ol {
 }
 
 .sidebar__item__color.sidebar__item__color--gray label:after {
-	background: #E9A625;
+	background: #cccccc;
 }
 
 .sidebar__item__color.sidebar__item__color--red label:after {
@@ -1292,7 +1292,7 @@ ol {
 	background: #dd2222;
 	border-radius: 50%;
 	font-size: 14px;
-	color: #ffffff;
+	color: #fff;
 	line-height: 45px;
 	text-align: center;
 	position: absolute;
@@ -1329,7 +1329,7 @@ ol {
 }
 
 .product__item__pic__hover li:hover a i {
-	color: #ffffff;
+	color: #fff;
 	transform: rotate(360deg);
 }
 
@@ -1437,7 +1437,7 @@ ol {
 }
 
 .filter__sort .nice-select {
-	background-color: #fff;
+	background-color: black;
 	border-radius: 0;
 	border: none;
 	display: inline-block;
@@ -1569,7 +1569,7 @@ ol {
 }
 
 .product__item__pic__hover li:hover a i {
-	color: #ffffff;
+	color: #fff;
 	transform: rotate(360deg);
 }
 
@@ -1647,7 +1647,7 @@ ol {
 .blog__pagination a:hover {
 	background: #1e90ff;
 	border-color: #1e90ff;
-	color: #ffffff;
+	color: #fff;
 }
 
 .product__pagination a:last-child,
@@ -2480,14 +2480,14 @@ ol {
 
 .blog__details__hero__text h2 {
 	font-size: 46px;
-	color: #ffffff;
+	color: #fff;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
 
 .blog__details__hero__text ul li {
 	font-size: 16px;
-	color: #ffffff;
+	color: #fff;
 	list-style: none;
 	display: inline-block;
 	margin-right: 45px;
@@ -2721,8 +2721,8 @@ ol {
 
 .footer__widget .footer__widget__social a:hover {
 	background: #1e90ff;
-	color: #ffffff;
-	border-color: #ffffff;
+	color: #fff;
+	border-color: #fff;
 }
 
 .footer__copyright {
@@ -3056,7 +3056,7 @@ ol {
 		width: 13px;
 		background: #1e90ff;
 		font-size: 10px;
-		color: #ffffff;
+		color: #fff;
 		line-height: 13px;
 		text-align: center;
 		font-weight: 700;
@@ -3314,7 +3314,7 @@ ol {
 		width: 13px;
 		background: #1e90ff;
 		font-size: 10px;
-		color: #ffffff;
+		color: #fff;
 		line-height: 13px;
 		text-align: center;
 		font-weight: 700;
