@@ -1018,19 +1018,19 @@ ol {
 }
 
 /*---------------------
-  Form BLog
+  Form SOON
 -----------------------*/
 
-.from-blog {
+.from-SOON {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-.from-blog .blog__item {
+.from-SOON .SOON__item {
 	margin-bottom: 30px;
 }
 
-.from-blog__title {
+.from-SOON__title {
 	margin-bottom: 70px;
 }
 
@@ -1620,12 +1620,12 @@ ol {
 }
 
 .product__pagination,
-.blog__pagination {
+.SOON__pagination {
 	padding-top: 10px;
 }
 
 .product__pagination a,
-.blog__pagination a {
+.SOON__pagination a {
 	display: inline-block;
 	width: 30px;
 	height: 30px;
@@ -1644,14 +1644,14 @@ ol {
 }
 
 .product__pagination a:hover,
-.blog__pagination a:hover {
+.SOON__pagination a:hover {
 	background: #1e90ff;
 	border-color: #1e90ff;
 	color: #fff;
 }
 
 .product__pagination a:last-child,
-.blog__pagination a:last-child {
+.SOON__pagination a:last-child {
 	margin-right: 0;
 }
 
@@ -2270,26 +2270,26 @@ ol {
 }
 
 /*---------------------
-  Blog
+  SOON
 -----------------------*/
 
-.blog__item {
+.SOON__item {
 	margin-bottom: 60px;
 }
 
-.blog__item__pic img {
+.SOON__item__pic img {
 	min-width: 100%;
 }
 
-.blog__item__text {
+.SOON__item__text {
 	padding-top: 25px;
 }
 
-.blog__item__text ul {
+.SOON__item__text ul {
 	margin-bottom: 15px;
 }
 
-.blog__item__text ul li {
+.SOON__item__text ul li {
 	font-size: 16px;
 	color: #b2b2b2;
 	list-style: none;
@@ -2297,25 +2297,25 @@ ol {
 	margin-right: 15px;
 }
 
-.blog__item__text ul li:last-child {
+.SOON__item__text ul li:last-child {
 	margin-right: 0;
 }
 
-.blog__item__text h5 {
+.SOON__item__text h5 {
 	margin-bottom: 12px;
 }
 
-.blog__item__text h5 a {
+.SOON__item__text h5 a {
 	font-size: 20px;
 	color: #1c1c1c;
 	font-weight: 700;
 }
 
-.blog__item__text p {
+.SOON__item__text p {
 	margin-bottom: 25px;
 }
 
-.blog__item__text .blog__btn {
+.SOON__item__text .SOON__btn {
 	display: inline-block;
 	font-size: 14px;
 	color: #1c1c1c;
@@ -2326,18 +2326,18 @@ ol {
 	border-radius: 25px;
 }
 
-.blog__item__text .blog__btn span {
+.SOON__item__text .SOON__btn span {
 	position: relative;
 	top: 1px;
 	margin-left: 5px;
 }
 
-.blog__pagination {
+.SOON__pagination {
 	padding-top: 5px;
 	position: relative;
 }
 
-.blog__pagination:before {
+.SOON__pagination:before {
 	position: absolute;
 	left: 0;
 	top: -29px;
@@ -2349,28 +2349,28 @@ ol {
 }
 
 /*---------------------
-  Blog Sidebar
+  SOON Sidebar
 -----------------------*/
 
-.blog__sidebar {
+.SOON__sidebar {
 	padding-top: 50px;
 }
 
-.blog__sidebar__item {
+.SOON__sidebar__item {
 	margin-bottom: 50px;
 }
 
-.blog__sidebar__item h4 {
+.SOON__sidebar__item h4 {
 	color: #1c1c1c;
 	font-weight: 700;
 	margin-bottom: 25px;
 }
 
-.blog__sidebar__item ul li {
+.SOON__sidebar__item ul li {
 	list-style: none;
 }
 
-.blog__sidebar__item ul li a {
+.SOON__sidebar__item ul li a {
 	font-size: 16px;
 	color: #666666;
 	line-height: 48px;
@@ -2381,19 +2381,19 @@ ol {
 	transition: all, 0.3s;
 }
 
-.blog__sidebar__item ul li a:hover {
+.SOON__sidebar__item ul li a:hover {
 	color: #1e90ff;
 }
 
-.blog__sidebar__search {
+.SOON__sidebar__search {
 	margin-bottom: 50px;
 }
 
-.blog__sidebar__search form {
+.SOON__sidebar__search form {
 	position: relative;
 }
 
-.blog__sidebar__search form input {
+.SOON__sidebar__search form input {
 	width: 100%;
 	height: 46px;
 	font-size: 16px;
@@ -2403,11 +2403,11 @@ ol {
 	border-radius: 20px;
 }
 
-.blog__sidebar__search form input::placeholder {
+.SOON__sidebar__search form input::placeholder {
 	color: #6f6f6f;
 }
 
-.blog__sidebar__search form button {
+.SOON__sidebar__search form button {
 	font-size: 16px;
 	color: #6f6f6f;
 	background: transparent;
@@ -2419,42 +2419,42 @@ ol {
 	padding: 0px 18px;
 }
 
-.blog__sidebar__recent .blog__sidebar__recent__item {
+.SOON__sidebar__recent .SOON__sidebar__recent__item {
 	display: block;
 }
 
-.blog__sidebar__recent .blog__sidebar__recent__item:last-child {
+.SOON__sidebar__recent .SOON__sidebar__recent__item:last-child {
 	margin-bottom: 0;
 }
 
-.blog__sidebar__recent__item {
+.SOON__sidebar__recent__item {
 	overflow: hidden;
 	margin-bottom: 20px;
 }
 
-.blog__sidebar__recent__item__pic {
+.SOON__sidebar__recent__item__pic {
 	float: left;
 	margin-right: 20px;
 }
 
-.blog__sidebar__recent__item__text {
+.SOON__sidebar__recent__item__text {
 	overflow: hidden;
 }
 
-.blog__sidebar__recent__item__text h6 {
+.SOON__sidebar__recent__item__text h6 {
 	font-weight: 700;
 	color: #333333;
 	line-height: 20px;
 	margin-bottom: 5px;
 }
 
-.blog__sidebar__recent__item__text span {
+.SOON__sidebar__recent__item__text span {
 	font-size: 12px;
 	color: #999999;
 	text-transform: uppercase;
 }
 
-.blog__sidebar__item__tags a {
+.SOON__sidebar__item__tags a {
 	font-size: 16px;
 	color: #6f6f6f;
 	background: #f5f5f5;
@@ -2465,27 +2465,27 @@ ol {
 }
 
 /*---------------------
-  Blog Details Hero
+  SOON Details Hero
 -----------------------*/
 
-.blog-details-hero {
+.SOON-details-hero {
 	height: 350px;
 	display: flex;
 	align-items: center;
 }
 
-.blog__details__hero__text {
+.SOON__details__hero__text {
 	text-align: center;
 }
 
-.blog__details__hero__text h2 {
+.SOON__details__hero__text h2 {
 	font-size: 46px;
 	color: #fff;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
 
-.blog__details__hero__text ul li {
+.SOON__details__hero__text ul li {
 	font-size: 16px;
 	color: #fff;
 	list-style: none;
@@ -2494,102 +2494,102 @@ ol {
 	position: relative;
 }
 
-.blog__details__hero__text ul li:after {
+.SOON__details__hero__text ul li:after {
 	position: absolute;
 	right: -26px;
 	top: 0;
 	content: "|";
 }
 
-.blog__details__hero__text ul li:last-child {
+.SOON__details__hero__text ul li:last-child {
 	margin-right: 0;
 }
 
-.blog__details__hero__text ul li:last-child:after {
+.SOON__details__hero__text ul li:last-child:after {
 	display: none;
 }
 
 /*---------------------
-  Blog Details
+  SOON Details
 -----------------------*/
 
-.related-blog {
+.related-SOON {
 	padding-top: 70px;
 	padding-bottom: 10px;
 }
 
-.related-blog-title {
+.related-SOON-title {
 	margin-bottom: 70px;
 }
 
-.blog-details {
+.SOON-details {
 	padding-bottom: 75px;
 	border-bottom: 1px solid #e1e1e1;
 }
 
-.blog__details__text {
+.SOON__details__text {
 	margin-bottom: 45px;
 }
 
-.blog__details__text img {
+.SOON__details__text img {
 	margin-bottom: 30px;
 }
 
-.blog__details__text p {
+.SOON__details__text p {
 	font-size: 18px;
 	line-height: 30px;
 }
 
-.blog__details__text h3 {
+.SOON__details__text h3 {
 	color: #333333;
 	font-weight: 700;
 	line-height: 30px;
 	margin-bottom: 30px;
 }
 
-.blog__details__author__pic {
+.SOON__details__author__pic {
 	float: left;
 	margin-right: 15px;
 }
 
-.blog__details__author__pic img {
+.SOON__details__author__pic img {
 	height: 92px;
 	width: 92px;
 	border-radius: 50%;
 }
 
-.blog__details__author__text {
+.SOON__details__author__text {
 	overflow: hidden;
 	padding-top: 30px;
 }
 
-.blog__details__author__text h6 {
+.SOON__details__author__text h6 {
 	color: #1c1c1c;
 	font-weight: 700;
 }
 
-.blog__details__author__text span {
+.SOON__details__author__text span {
 	font-size: 16px;
 	color: #6f6f6f;
 }
 
-.blog__details__widget ul {
+.SOON__details__widget ul {
 	margin-bottom: 5px;
 }
 
-.blog__details__widget ul li {
+.SOON__details__widget ul li {
 	font-size: 16px;
 	color: #6f6f6f;
 	list-style: none;
 	line-height: 30px;
 }
 
-.blog__details__widget ul li span {
+.SOON__details__widget ul li span {
 	color: #1c1c1c;
 	font-weight: 700;
 }
 
-.blog__details__widget .blog__details__social a {
+.SOON__details__widget .SOON__details__social a {
 	display: inline-block;
 	font-size: 20px;
 	color: #6f6f6f;
@@ -2601,11 +2601,11 @@ ol {
 	transition: all, 0.3s;
 }
 
-.blog__details__widget .blog__details__social a:hover {
+.SOON__details__widget .SOON__details__social a:hover {
 	color: #1e90ff;
 }
 
-.blog__details__widget .blog__details__social a:last-child {
+.SOON__details__widget .SOON__details__social a:last-child {
 	margin-right: 0;
 }
 
@@ -2968,7 +2968,7 @@ ol {
 	.product__details__tab .nav-tabs:after {
 		width: 150px;
 	}
-	.blog__details__author {
+	.SOON__details__author {
 		overflow: hidden;
 		margin-bottom: 25px;
 	}
@@ -3226,7 +3226,7 @@ ol {
 	.shoping__discount form input {
 		margin-bottom: 15px;
 	}
-	.blog__details__author {
+	.SOON__details__author {
 		overflow: hidden;
 		margin-bottom: 25px;
 	}
@@ -3462,7 +3462,7 @@ ol {
 	.checkout__order {
 		padding: 20px;
 	}
-	.blog__details__hero__text h2 {
+	.SOON__details__hero__text h2 {
 		font-size: 24px;
 	}
 }

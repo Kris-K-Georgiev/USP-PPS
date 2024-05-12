@@ -1,18 +1,18 @@
 /*---------------------
-  Blog
+  SOON
 -----------------------*/
-.blog__item {
+.SOON__item {
     margin-bottom: 60px;
 }
 
-.blog__item__pic {
+.SOON__item__pic {
 
     img {
         min-width: 100%;
     }
 }
 
-.blog__item__text {
+.SOON__item__text {
     padding-top: 25px;
 
     ul {
@@ -45,7 +45,7 @@
         margin-bottom: 25px;
     }
 
-    .blog__btn {
+    .SOON__btn {
         display: inline-block;
         font-size: 14px;
         color: $normal-color;
@@ -63,7 +63,7 @@
     }
 }
 
-.blog__pagination {
+.SOON__pagination {
     @extend .product__pagination;
     padding-top: 5px;
     position: relative;

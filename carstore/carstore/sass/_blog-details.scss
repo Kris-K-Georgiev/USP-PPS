@@ -1,13 +1,13 @@
 /*---------------------
-  Blog Details Hero
+  SOON Details Hero
 -----------------------*/
-.blog-details-hero {
+.SOON-details-hero {
     height: 350px;
     display: flex;
     align-items: center;
 }
 
-.blog__details__hero__text {
+.SOON__details__hero__text {
     text-align: center;
 
     h2 {
@@ -46,23 +46,23 @@
 }
 
 /*---------------------
-  Blog Details
+  SOON Details
 -----------------------*/
-.related-blog {
+.related-SOON {
     padding-top: 70px;
     padding-bottom: 10px;
 }
 
-.related-blog-title {
+.related-SOON-title {
     margin-bottom: 70px;
 }
 
-.blog-details {
+.SOON-details {
     padding-bottom: 75px;
     border-bottom: 1px solid #e1e1e1;
 }
 
-.blog__details__text {
+.SOON__details__text {
     margin-bottom: 45px;
 
     img {
@@ -82,7 +82,7 @@
     }
 }
 
-.blog__details__author__pic {
+.SOON__details__author__pic {
     float: left;
     margin-right: 15px;
 
@@ -93,7 +93,7 @@
     }
 }
 
-.blog__details__author__text {
+.SOON__details__author__text {
     overflow: hidden;
     padding-top: 30px;
 
@@ -108,7 +108,7 @@
     }
 }
 
-.blog__details__widget {
+.SOON__details__widget {
 
     ul {
         margin-bottom: 5px;
@@ -126,7 +126,7 @@
         }
     }
 
-    .blog__details__social {
+    .SOON__details__social {
 
         a {
             display: inline-block;

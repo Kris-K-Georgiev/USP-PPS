@@ -1,11 +1,11 @@
 /*---------------------
-  Blog Sidebar
+  SOON Sidebar
 -----------------------*/
-.blog__sidebar {
+.SOON__sidebar {
     padding-top: 50px;
 }
 
-.blog__sidebar__item {
+.SOON__sidebar__item {
     margin-bottom: 50px;
 
     h4 {
@@ -33,7 +33,7 @@
     }
 }
 
-.blog__sidebar__search {
+.SOON__sidebar__search {
     margin-bottom: 50px;
 
     form {
@@ -67,9 +67,9 @@
     }
 }
 
-.blog__sidebar__recent {
+.SOON__sidebar__recent {
 
-    .blog__sidebar__recent__item {
+    .SOON__sidebar__recent__item {
         display: block;
 
         &:last-child {
@@ -80,17 +80,17 @@
 
 
 
-.blog__sidebar__recent__item {
+.SOON__sidebar__recent__item {
     overflow: hidden;
     margin-bottom: 20px;
 }
 
-.blog__sidebar__recent__item__pic {
+.SOON__sidebar__recent__item__pic {
     float: left;
     margin-right: 20px;
 }
 
-.blog__sidebar__recent__item__text {
+.SOON__sidebar__recent__item__text {
     overflow: hidden;
 
     h6 {
@@ -107,7 +107,7 @@
     }
 }
 
-.blog__sidebar__item__tags {
+.SOON__sidebar__item__tags {
 
     a {
         font-size: 16px;
