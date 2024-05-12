@@ -1,26 +1,26 @@
-/*  ---------------------------------------------------
+/*  ---------------------------------------------------------------------------
     Template Name: carstore
     Description:  carstore eCommerce  HTML Template
     Author: Colorlib
     Author URI: https://colorlib.com
     Version: 1.0
     Created: Colorlib
----------------------------------------------------------  */
+-------------------------------------------------------------------------------------  */
 
 'use strict';
 
 (function ($) {
 
-    /*------------------
+    /*--------------------------
         Preloader
-    --------------------*/
+    ------------------------------*/
     $(window).on('load', function () {
         $(".loader").fadeOut();
         $("#preloder").delay(200).fadeOut("slow");
 
-        /*------------------
+        /*--------------------------
             Gallery filter
-        --------------------*/
+        ------------------------------*/
         $('.featured__controls li').on('click', function () {
             $('.featured__controls li').removeClass('active');
             $(this).addClass('active');
@@ -31,9 +31,9 @@
         }
     });
 
-    /*------------------
+    /*--------------------------
         Background Set
-    --------------------*/
+    ------------------------------*/
     $('.set-bg').each(function () {
         var bg = $(this).data('setbg');
         $(this).css('background-image', 'url(' + bg + ')');
@@ -52,17 +52,17 @@
         $("body").removeClass("over_hid");
     });
 
-    /*------------------
+    /*--------------------------
 		Navigation
-	--------------------*/
+	------------------------------*/
     $(".mobile-menu").slicknav({
         prependTo: '#mobile-menu-wrap',
         allowParentLinks: true
     });
 
-    /*-----------------------
+    /*---------------------------------
         Categories Slider
-    ------------------------*/
+    ------------------------------------*/
     $(".categories__slider").owlCarousel({
         loop: true,
         margin: 0,
@@ -100,9 +100,9 @@
         $('.hero__categories ul').slideToggle(400);
     });
 
-    /*--------------------------
+    /*--------------------------------------
         Latest Product Slider
-    ----------------------------*/
+    ------------------------------------------*/
     $(".latest-product__slider").owlCarousel({
         loop: true,
         margin: 0,
@@ -115,9 +115,9 @@
         autoplay: true
     });
 
-    /*-----------------------------
+    /*-------------------------------------------
         Product Discount Slider
-    -------------------------------*/
+    ---------------------------------------------*/
     $(".product__discount__slider").owlCarousel({
         loop: true,
         margin: 0,
@@ -146,9 +146,9 @@
         }
     });
 
-    /*---------------------------------
+    /*-------------------------------------------------
         Product Details Pic Slider
-    ----------------------------------*/
+    --------------------------------------------------*/
     $(".product__details__pic__slider").owlCarousel({
         loop: true,
         margin: 20,
@@ -159,9 +159,9 @@
         autoplay: true
     });
 
-    /*-----------------------
+    /*---------------------------------
 		Price Range Slider
-	------------------------ */
+	------------------------------------ */
     var rangeSlider = $(".price-range"),
         minamount = $("#minamount"),
         maxamount = $("#maxamount"),
@@ -180,14 +180,14 @@
     minamount.val('$' + rangeSlider.slider("values", 0));
     maxamount.val('$' + rangeSlider.slider("values", 1));
 
-    /*--------------------------
+    /*--------------------------------------
         Select
-    ----------------------------*/
+    ------------------------------------------*/
     $("select").niceSelect();
 
-    /*------------------
+    /*--------------------------
 		Single Product
-	--------------------*/
+	------------------------------*/
     $('.product__details__pic__slider img').on('click', function () {
 
         var imgurl = $(this).data('imgbigurl');
@@ -199,9 +199,9 @@
         }
     });
 
-    /*-------------------
+    /*---------------------------
 		Quantity change
-	--------------------- */
+	------------------------------- */
     var proQty = $('.pro-qty');
     proQty.prepend('<span class="dec qtybtn">-</span>');
     proQty.append('<span class="inc qtybtn">+</span>');
